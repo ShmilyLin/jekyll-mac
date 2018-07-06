@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8CB40520EDEBE70052B1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CB40420EDEBE70052B1E8 /* AppDelegate.swift */; };
+		3A8CB40720EDEBE70052B1E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CB40620EDEBE70052B1E8 /* ViewController.swift */; };
+		3A8CB40920EDEBE80052B1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CB40820EDEBE80052B1E8 /* Assets.xcassets */; };
+		3A8CB40C20EDEBE90052B1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8CB40A20EDEBE90052B1E8 /* Main.storyboard */; };
+		3A8CB41820EDEBE90052B1E8 /* JekyllNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CB41720EDEBE90052B1E8 /* JekyllNoteTests.swift */; };
+		3A8CB42320EDEBE90052B1E8 /* JekyllNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8CB42220EDEBE90052B1E8 /* JekyllNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A8CB41420EDEBE90052B1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A8CB3F920EDEBE70052B1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A8CB40020EDEBE70052B1E8;
+			remoteInfo = JekyllNote;
+		};
+		3A8CB41F20EDEBE90052B1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A8CB3F920EDEBE70052B1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A8CB40020EDEBE70052B1E8;
+			remoteInfo = JekyllNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A8CB40120EDEBE70052B1E8 /* JekyllNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JekyllNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8CB40420EDEBE70052B1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A8CB40620EDEBE70052B1E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A8CB40820EDEBE80052B1E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A8CB40B20EDEBE90052B1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A8CB40D20EDEBE90052B1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8CB40E20EDEBE90052B1E8 /* JekyllNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JekyllNote.entitlements; sourceTree = "<group>"; };
+		3A8CB41320EDEBE90052B1E8 /* JekyllNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JekyllNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8CB41720EDEBE90052B1E8 /* JekyllNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JekyllNoteTests.swift; sourceTree = "<group>"; };
+		3A8CB41920EDEBE90052B1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8CB41E20EDEBE90052B1E8 /* JekyllNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JekyllNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8CB42220EDEBE90052B1E8 /* JekyllNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JekyllNoteUITests.swift; sourceTree = "<group>"; };
+		3A8CB42420EDEBE90052B1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8CB3FE20EDEBE70052B1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CB41020EDEBE90052B1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CB41B20EDEBE90052B1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8CB3F820EDEBE70052B1E8 = {
+			isa = PBXGroup;
+			children = (
+				3A8CB40320EDEBE70052B1E8 /* JekyllNote */,
+				3A8CB41620EDEBE90052B1E8 /* JekyllNoteTests */,
+				3A8CB42120EDEBE90052B1E8 /* JekyllNoteUITests */,
+				3A8CB40220EDEBE70052B1E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8CB40220EDEBE70052B1E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8CB40120EDEBE70052B1E8 /* JekyllNote.app */,
+				3A8CB41320EDEBE90052B1E8 /* JekyllNoteTests.xctest */,
+				3A8CB41E20EDEBE90052B1E8 /* JekyllNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8CB40320EDEBE70052B1E8 /* JekyllNote */ = {
+			isa = PBXGroup;
+			children = (
+				3A8CB40420EDEBE70052B1E8 /* AppDelegate.swift */,
+				3A8CB40620EDEBE70052B1E8 /* ViewController.swift */,
+				3A8CB40820EDEBE80052B1E8 /* Assets.xcassets */,
+				3A8CB40A20EDEBE90052B1E8 /* Main.storyboard */,
+				3A8CB40D20EDEBE90052B1E8 /* Info.plist */,
+				3A8CB40E20EDEBE90052B1E8 /* JekyllNote.entitlements */,
+			);
+			path = JekyllNote;
+			sourceTree = "<group>";
+		};
+		3A8CB41620EDEBE90052B1E8 /* JekyllNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A8CB41720EDEBE90052B1E8 /* JekyllNoteTests.swift */,
+				3A8CB41920EDEBE90052B1E8 /* Info.plist */,
+			);
+			path = JekyllNoteTests;
+			sourceTree = "<group>";
+		};
+		3A8CB42120EDEBE90052B1E8 /* JekyllNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A8CB42220EDEBE90052B1E8 /* JekyllNoteUITests.swift */,
+				3A8CB42420EDEBE90052B1E8 /* Info.plist */,
+			);
+			path = JekyllNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8CB40020EDEBE70052B1E8 /* JekyllNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8CB42720EDEBE90052B1E8 /* Build configuration list for PBXNativeTarget "JekyllNote" */;
+			buildPhases = (
+				3A8CB3FD20EDEBE70052B1E8 /* Sources */,
+				3A8CB3FE20EDEBE70052B1E8 /* Frameworks */,
+				3A8CB3FF20EDEBE70052B1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JekyllNote;
+			productName = JekyllNote;
+			productReference = 3A8CB40120EDEBE70052B1E8 /* JekyllNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A8CB41220EDEBE90052B1E8 /* JekyllNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8CB42A20EDEBE90052B1E8 /* Build configuration list for PBXNativeTarget "JekyllNoteTests" */;
+			buildPhases = (
+				3A8CB40F20EDEBE90052B1E8 /* Sources */,
+				3A8CB41020EDEBE90052B1E8 /* Frameworks */,
+				3A8CB41120EDEBE90052B1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8CB41520EDEBE90052B1E8 /* PBXTargetDependency */,
+			);
+			name = JekyllNoteTests;
+			productName = JekyllNoteTests;
+			productReference = 3A8CB41320EDEBE90052B1E8 /* JekyllNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A8CB41D20EDEBE90052B1E8 /* JekyllNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8CB42D20EDEBE90052B1E8 /* Build configuration list for PBXNativeTarget "JekyllNoteUITests" */;
+			buildPhases = (
+				3A8CB41A20EDEBE90052B1E8 /* Sources */,
+				3A8CB41B20EDEBE90052B1E8 /* Frameworks */,
+				3A8CB41C20EDEBE90052B1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8CB42020EDEBE90052B1E8 /* PBXTargetDependency */,
+			);
+			name = JekyllNoteUITests;
+			productName = JekyllNoteUITests;
+			productReference = 3A8CB41E20EDEBE90052B1E8 /* JekyllNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8CB3F920EDEBE70052B1E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chongxiaoge;
+				TargetAttributes = {
+					3A8CB40020EDEBE70052B1E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3A8CB41220EDEBE90052B1E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3A8CB40020EDEBE70052B1E8;
+					};
+					3A8CB41D20EDEBE90052B1E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3A8CB40020EDEBE70052B1E8;
+					};
+				};
+			};
+			buildConfigurationList = 3A8CB3FC20EDEBE70052B1E8 /* Build configuration list for PBXProject "JekyllNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8CB3F820EDEBE70052B1E8;
+			productRefGroup = 3A8CB40220EDEBE70052B1E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8CB40020EDEBE70052B1E8 /* JekyllNote */,
+				3A8CB41220EDEBE90052B1E8 /* JekyllNoteTests */,
+				3A8CB41D20EDEBE90052B1E8 /* JekyllNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8CB3FF20EDEBE70052B1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8CB40920EDEBE80052B1E8 /* Assets.xcassets in Resources */,
+				3A8CB40C20EDEBE90052B1E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CB41120EDEBE90052B1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CB41C20EDEBE90052B1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8CB3FD20EDEBE70052B1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8CB40720EDEBE70052B1E8 /* ViewController.swift in Sources */,
+				3A8CB40520EDEBE70052B1E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CB40F20EDEBE90052B1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8CB41820EDEBE90052B1E8 /* JekyllNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CB41A20EDEBE90052B1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8CB42320EDEBE90052B1E8 /* JekyllNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A8CB41520EDEBE90052B1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A8CB40020EDEBE70052B1E8 /* JekyllNote */;
+			targetProxy = 3A8CB41420EDEBE90052B1E8 /* PBXContainerItemProxy */;
+		};
+		3A8CB42020EDEBE90052B1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A8CB40020EDEBE70052B1E8 /* JekyllNote */;
+			targetProxy = 3A8CB41F20EDEBE90052B1E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A8CB40A20EDEBE90052B1E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8CB40B20EDEBE90052B1E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8CB42520EDEBE90052B1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A8CB42620EDEBE90052B1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3A8CB42820EDEBE90052B1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JekyllNote/JekyllNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JekyllNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongxiaoge.JekyllNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3A8CB42920EDEBE90052B1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JekyllNote/JekyllNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JekyllNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongxiaoge.JekyllNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3A8CB42B20EDEBE90052B1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JekyllNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongxiaoge.JekyllNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JekyllNote.app/Contents/MacOS/JekyllNote";
+			};
+			name = Debug;
+		};
+		3A8CB42C20EDEBE90052B1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JekyllNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongxiaoge.JekyllNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JekyllNote.app/Contents/MacOS/JekyllNote";
+			};
+			name = Release;
+		};
+		3A8CB42E20EDEBE90052B1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JekyllNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongxiaoge.JekyllNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = JekyllNote;
+			};
+			name = Debug;
+		};
+		3A8CB42F20EDEBE90052B1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JekyllNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chongxiaoge.JekyllNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = JekyllNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8CB3FC20EDEBE70052B1E8 /* Build configuration list for PBXProject "JekyllNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8CB42520EDEBE90052B1E8 /* Debug */,
+				3A8CB42620EDEBE90052B1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8CB42720EDEBE90052B1E8 /* Build configuration list for PBXNativeTarget "JekyllNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8CB42820EDEBE90052B1E8 /* Debug */,
+				3A8CB42920EDEBE90052B1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8CB42A20EDEBE90052B1E8 /* Build configuration list for PBXNativeTarget "JekyllNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8CB42B20EDEBE90052B1E8 /* Debug */,
+				3A8CB42C20EDEBE90052B1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8CB42D20EDEBE90052B1E8 /* Build configuration list for PBXNativeTarget "JekyllNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8CB42E20EDEBE90052B1E8 /* Debug */,
+				3A8CB42F20EDEBE90052B1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8CB3F920EDEBE70052B1E8 /* Project object */;
+}
